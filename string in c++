@@ -1,0 +1,19 @@
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	string s1="Hello world";
+	char a[]={'H','A','I'};
+	string s2=string(a);
+	cout<<"The string s1 is:"<<s1;
+	cout<<"The string s2 is:"<<s2;
+	return 0;
+}
+
+output
+The string s1 is:Hello worldThe string s2 is:HAI
+--------------------------------
+Process exited after 0.6159 seconds with return value 0
+Press any key to continue . . .
+
