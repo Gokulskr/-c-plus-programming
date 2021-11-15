@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	string number;
+	cout<<"Enter  numbers:";
+	cin>>a;
+	number=(a%2==0)?"even":"odd";
+	cout<<number;
+	return 0;
+	
+}
+
+output
+
+Enter  numbers:5
+odd
+--------------------------------
+Process exited after 2.275 seconds with return value 0
+Press any key to continue . . .
